@@ -4,7 +4,7 @@
 
 ## Структура проекта
 project_folder/
-  ├── countdown.py
-  ├── Dockerfile
-  ├── docker-compose.yml
-  └── requirements.txt
+─ countdown.py
+─ Dockerfile
+─ docker-compose.yml
+─ requirements.txt
