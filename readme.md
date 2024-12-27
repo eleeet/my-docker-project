@@ -3,7 +3,7 @@
 - скрипт отсчета времени до нового года
 
 ## Структура проекта
-- project_folder/
+- project_folder
 	─ countdown.py
 	─ Dockerfile
 	─ docker-compose.yml
