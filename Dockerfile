@@ -2,12 +2,15 @@ FROM python:3.9-slim
 
 WORKDIR /app
 
-# Установка Flask
-RUN pip install flask
+# Копируем requirements.txt
+COPY requirements.txt .
 
+# Устанавливаем зависимости из requirements.txt
+RUN pip install -r requirements.txt
+
+# Копируем остальные файлы проекта
 COPY countdown.py .
 
-# Открываем порт 3000
 EXPOSE 3000
 
 CMD ["python", "countdown.py"]
